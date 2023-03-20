@@ -1,3 +1,133 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --orange: #F5841F;
+    --brown: #340E0E;
+    --navy: #16213C;
+    --bluetext: #2D4275;
+    --lightblue: #8ECAE6;
+    --lighterblue: #F1F8FC;
+    --gray: #D9D9D9;
+    --lightergray: #EFEFEF;
+    --evenlightergray: #F8F8F8;
+}
+
 html {
     font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.header__top {
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    padding: .5em;
+    font-weight: bold;
+}
+
+.header__cislo {
+    background: url(../Icons/header_telefon.svg) left center no-repeat;
+    padding-left: 20px;
+}
+
+.header__email {
+    background: url(../Icons/header_obalka.svg) left center no-repeat;
+    padding-left: 20px;
+    margin-left: .5em;
+}
+
+.header__prihlaseni {
+    background: url(../Icons/header_prihlaseni.svg) left center no-repeat;
+    padding-left: 30px;
+    padding-top: 1px;
+}
+
+.Logoipsum {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+
+h2 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.orange_text {
+    color: var(--orange);
+}
+
+.main_top {
+    text-align: center;
+    margin: 2em 2em;
+}
+
+.main_top__img {
+    margin: 2em 2em;
+}
+
+.main_img {
+    width: 100%;
+    display: block;
+}
+
+.main_top__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .main_top__ul {
+    list-style: none;
+}
+
+.main_top__ul li::before {
+    content: url(../Icons/main_checkmark.svg);
+}
+
+.button {
+    background-color: var(--orange);
+    width: fit-content;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-weight: 700;
+}
+
+.button > a {
+    color: var(--white);
+}
+
+.slider {
+    display: flex;
+    /* flex-direction: row;
+    margin: 2em;
+    gap: .5em; */
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 65px;
+    color: var(--navy);
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.vyhody {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lighterblue);
+}
+
+footer {
+    background-color: var(--navy);
+    padding: 2em;
 }

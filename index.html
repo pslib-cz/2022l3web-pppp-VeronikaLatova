@@ -7,24 +7,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Homepage</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="header__top">
             <div>
-                <a href="">+420 777 666 666</a>
-                <a href="">obchod@l3web.cz</a>
+                <span class="header__cislo"><a href="#">+420 777 666 666</a></span >
+                <span class="header__email"><a href="#">obchod@l3web.cz</a></span >
             </div>
             <div>
-                <a href="">Přihlášení</a>
+                <span class="header__prihlaseni"><a href="#">Přihlášení</a></span >
             </div>
         </div>
         <nav>
             <div class="Logoipsum">
-                <a href="#"><img src="" alt="Logoipsum logo"><a >
+                <a href="#"><img src="./Icons/Logoipsum.svg" alt="Logoipsum logo"><a >
             </div>
             <div>
                 <ul>
@@ -41,33 +41,35 @@
         </nav>
     </header>
     <main>
-        <div>
-            <h1>Řízení školy ještě nebylo jednodušší</h1>
+        <div class="main_top">
+            <h1><span class="orange_text">Řízení školy</span> ještě nebylo jednodušší</h1>
             <p>Představujeme Software pro řízení lidských zdrojů ve škole nebylo efektivnější.</p>
         </div>
-        <div>
-            <img src="" alt="">
+        <div class="main_top__img">
+            <img class="main_img" src="./Icons/img.jpg" alt="">
         </div>
-        <div>
+        <div  class="main_top__list">
             <div>
-                <ul>
+                <ul class="main_top__ul">
                     <li>Počítá mzdové náklady</li>
                     <li>Generuje lidi</li>
                     <li>Tvoří budoucnost</li>
                 </ul>
             </div>
-            <div class="button">
-                <a href="#">Vyzkoušejte demo</a>
-            </div>
+            <div>
+                <div class="button">
+                    <a href="#">Vyzkoušejte demo</a>
+                </div>
+            </div >
         </div>
         <div class="slider">
-            <div><img src="" alt=""></div>
-            <div><img src="" alt=""></div>
-            <div><img src="" alt=""></div>
-            <div><img src="" alt=""></div>
-            <div><img src="" alt=""></div>
+            <div><img src="./Icons/Logo4.svg" alt=""></div>
+            <div><img src="./Icons/Logo5.svg" alt=""></div>
+            <div><img src="./Icons/Logo2.svg" alt=""></div>
+            <div><img src="./Icons/Logo3.svg" alt=""></div>
+            <div><img src="./Icons/Logo1.svg" alt=""></div>
         </div>
-        <section>
+        <section class="vyhody">
             <div>
                 <h2>Výhody řešení</h2>
                 <div class="vyhody_list">
@@ -179,7 +181,7 @@
         <div>
             <div>
                 <div class="Logoipsum">
-                    <a href="./index.html"><img src="" alt="Logoipsum logo"><a>
+                    <a href="./index.html"><img src="./Icons/Logoipsum.svg" alt="Logoipsum logo"><a>
                 </div>
                 <p>Pslib.cz s.r.o.</p>
                 <p>Masarykova 12345</p>
