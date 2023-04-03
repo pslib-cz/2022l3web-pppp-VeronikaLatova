@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/normalize.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSSTransition-HamburgerJS/hamburger.css">
+    <link rel="stylesheet" href="./CSSTransition-HamburgerJS/hamburgerstyle.css">
+    <script src="./CSSTransition-HamburgerJS/hamburger.js"></script>
     <title>Homepage</title>
 </head>
 <body>
@@ -22,22 +25,29 @@
                 <span class="header__prihlaseni"><a href="#">Přihlášení</a></span >
             </div>
         </div>
-        <nav>
-            <div class="Logoipsum">
-                <a href="#"><img src="./Icons/Logoipsum.svg" alt="Logoipsum logo"><a >
+        <div class="navigace">
+            <div class="navigace__logoipsum">
+                <a href="#"><img src="./icons/Logoipsum.svg" alt="Logoipsum logo"></a>
             </div>
-            <div>
-                <ul>
-                    <li><a href="./index.html">Úvod</a></li>
-                    <li><a href="./funkce.html">Funkce</a></li>
-                    <li><a href="#">Podpora</a></li>
-                    <li><a href="#">Ceník</a></li>
-                    <li><a href="./kontakt.html">Kontakt</a></li>
-                </ul>
+            <div class="hamburger-row">
+                <a href="javascript:void(0)" class="hamburger hamburger-btn hamburger-zone">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
             </div>
-            <div class="button">
+            <div class="button button__nav">
                 <a href="#">Zkušební verze</a>
             </div>
+        </div>
+        <nav class="hamburger-nav hamburger-zone">
+            <ul>
+                <li><a href="./index.html">Úvod</a></li>
+                <li><a href="./funkce.html">Funkce</a></li>
+                <li><a href="#">Podpora</a></li>
+                <li><a href="#">Ceník</a></li>
+                <li><a href="./kontakt.html">Kontakt</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -46,7 +56,7 @@
             <p>Představujeme Software pro řízení lidských zdrojů ve škole nebylo efektivnější.</p>
         </div>
         <div class="main_top__img">
-            <img class="main_img" src="./Icons/img.jpg" alt="">
+            <img class="main_img" src="./icons/img.jpg" alt="">
         </div>
         <div  class="main_top__list">
             <div>
@@ -63,43 +73,43 @@
             </div >
         </div>
         <div class="slider">
-            <div><img src="./Icons/Logo4.svg" alt=""></div>
-            <div><img src="./Icons/Logo5.svg" alt=""></div>
-            <div><img src="./Icons/Logo2.svg" alt=""></div>
+            <div><img src="./icons/Logo4.svg" alt=""></div>
+            <div><img src="./icons/Logo5.svg" alt=""></div>
+            <!-- <div><img src="./Icons/Logo2.svg" alt=""></div>
             <div><img src="./Icons/Logo3.svg" alt=""></div>
-            <div><img src="./Icons/Logo1.svg" alt=""></div>
+            <div><img src="./Icons/Logo1.svg" alt=""></div> -->
         </div>
         <section class="vyhody">
             <div>
                 <h2>Výhody řešení</h2>
                 <div class="vyhody_list">
-                    <div>
+                    <div class="vyhody_list__item">
                         <a href="#">
-                            <img src="" alt="">
-                            <p>Zkracuje čas práce díky velkému množství funkcí</p>
+                            <img class="vyhody_list__circle" src="./icons/vyhody_hodiny.svg" alt="">
+                            <p><span class="orange_text">Zkracuje čas</span> práce díky velkému množství funkcí</p>
                         </a>
                     </div>
-                    <div>
+                    <div class="vyhody_list__item">
                         <a href="#">
-                            <img src="" alt="">
+                            <img class="vyhody_list__circle" src="./icons/vyhody_pristup.svg" alt="">
                             <p>Poskytuje selektivní přístup všem pracovníkům</p>
                         </a>
                     </div>
-                    <div>
+                    <div class="vyhody_list__item">
                         <a href="#">
-                            <img src="" alt="">
+                            <img class="vyhody_list__circle" src="./icons/vyhody_sipky.svg" alt="">
                             <p>Umožňuje outsourcing personalistických procesů</p>
                         </a>
                     </div>
-                    <div>
+                    <div class="vyhody_list__item">
                         <a href="#">
-                            <img src="" alt="">
+                            <img class="vyhody_list__circle" src="./icons/vyhody_check.svg" alt="">
                             <p>Zaručuje splnení požadavků ISO a IATF</p>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="line?"></div>
+            <div class="line"></div>
             <div>
                 <a href="#" class="bily_obdelnik">
                     <h3>Administrace aplikace</h3>
@@ -181,7 +191,7 @@
         <div>
             <div>
                 <div class="Logoipsum">
-                    <a href="./index.html"><img src="./Icons/Logoipsum.svg" alt="Logoipsum logo"><a>
+                    <a href="./index.html"><img src="./icons/Logoipsum.svg" alt="Logoipsum logo"><a>
                 </div>
                 <p>Pslib.cz s.r.o.</p>
                 <p>Masarykova 12345</p>
@@ -218,7 +228,7 @@
             </div>
             <div></div>
             <div>
-                <p>@Copyright 2023 - Pslib.cz s.r.o. | <a href="#">Cookies<a > | <a href="#">Podmínky užití<a ></p>
+                <p>@Copyright 2023 - Pslib.cz s.r.o. | <a href="#">Cookies<a > | <a href="#">Podmínky užití</a></p>
             </div>
             <div>
                 <p>Vyrobilo: <a href="#">B interactive<a ></p>

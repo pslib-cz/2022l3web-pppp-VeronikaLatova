@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/normalize.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSSTransition-HamburgerJS/hamburger.css">
+    <link rel="stylesheet" href="./CSSTransition-HamburgerJS/hamburgerstyle.css">
+    <script src="./CSSTransition-HamburgerJS/hamburger.js"></script>
     <title>Kontakt</title>
 </head>
 <body>
@@ -22,22 +25,29 @@
                 <span class="header__prihlaseni"><a href="#">Přihlášení</a></span >
             </div>
         </div>
-        <nav>
-            <div class="Logoipsum">
-                <a href="#"><img src="./Icons/Logoipsum.svg" alt="Logoipsum logo"><a >
+        <div class="navigace">
+            <div class="navigace__logoipsum">
+                <a href="#"><img src="./icons/Logoipsum.svg" alt="Logoipsum logo"></a>
             </div>
-            <div>
-                <ul>
-                    <li><a href="./index.html">Úvod</a></li>
-                    <li><a href="./funkce.html">Funkce</a></li>
-                    <li><a href="#">Podpora</a></li>
-                    <li><a href="#">Ceník</a></li>
-                    <li><a href="./kontakt.html">Kontakt</a></li>
-                </ul>
+            <div class="hamburger-row">
+                <a href="javascript:void(0)" class="hamburger hamburger-btn hamburger-zone">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
             </div>
             <div class="button">
                 <a href="#">Zkušební verze</a>
             </div>
+        </div>
+        <nav class="hamburger-nav hamburger-zone">
+            <ul>
+                <li><a href="./index.html">Úvod</a></li>
+                <li><a href="./funkce.html">Funkce</a></li>
+                <li><a href="#">Podpora</a></li>
+                <li><a href="#">Ceník</a></li>
+                <li><a href="./kontakt.html">Kontakt</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -137,7 +147,7 @@
             </div>
             <div></div>
             <div>
-                <p>@Copyright 2023 - Pslib.cz s.r.o. | <a href="#">Cookies<a > | <a href="#">Podmínky užití<a ></p>
+                <p>@Copyright 2023 - Pslib.cz s.r.o. | <a href="#">Cookies<a > | <a href="#">Podmínky užití</a></p>
             </div>
             <div>
                 <p>Vyrobilo: <a href="#">B interactive<a ></p>

@@ -17,7 +17,7 @@ html {
 }
 
 .header__top {
-    background-color: #EFEFEF;
+    background-color: var(--lightergray);
     display: flex;
     justify-content: space-between;
     padding: .5em;
@@ -41,9 +41,18 @@ html {
     padding-top: 1px;
 }
 
-.Logoipsum {
+.navigace {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigace__logoipsum {
+    position: absolute;
     margin-top: 1em;
     margin-left: 1em;
+    order: 1;
 }
 
 a {
@@ -65,6 +74,7 @@ h2 {
 .main_top {
     text-align: center;
     margin: 2em 2em;
+    margin-top: -8em;
 }
 
 .main_top__img {
@@ -93,9 +103,15 @@ h2 {
 .button {
     background-color: var(--orange);
     width: fit-content;
+    height: fit-content;
     border-radius: 30px;
     padding: 12px 24px;
     font-weight: 700;
+}
+
+.button__nav {
+    order: 2;
+    margin-left: 13em;
 }
 
 .button > a {
@@ -104,6 +120,7 @@ h2 {
 
 .slider {
     display: flex;
+    margin: 2em;
     /* flex-direction: row;
     margin: 2em;
     gap: .5em; */
@@ -122,9 +139,39 @@ h4 {
 }
 
 .vyhody {
+    background-color: var(--lighterblue);
+}
+
+.vyhody > div > h2 {
+    text-align: center;
+    color: var(--navy)
+}
+
+.vyhody_list__item > a > p {
+    font-weight: 700;
+    color: var(--bluetext);
+}
+
+.vyhody_list {
     display: flex;
     flex-direction: column;
-    background-color: var(--lighterblue);
+    justify-content: center;
+}
+
+.vyhody_list__circle {
+    background-color: var(--navy);
+    border-radius: 50%;
+    padding: 2em;
+}
+
+.vyhody_list__item {
+    text-align: center;
+}
+
+.line {
+    border: 1px dashed var(--lightblue);
+    width: 50vw;
+    margin: 0 auto;
 }
 
 footer {
