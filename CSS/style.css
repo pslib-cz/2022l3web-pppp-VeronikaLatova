@@ -180,7 +180,11 @@ h4 {
 }
 
 .bily_obdelnik {
+    width: 304px;
+    height: 200px;
     background-color: var(--white);
+    border-radius: 8px;
+    filter: drop-shadow(10px 10px 4px var(--lightergray));
 }
 
 
