@@ -123,7 +123,7 @@ h2 {
     margin: 2em;
     flex-direction: row;
     margin: 2em;
-    gap: .5em
+    gap: .5em;
 }
 
 h1 {
@@ -178,6 +178,11 @@ h4 {
     margin-top: -2em;
     margin-left: .5em;
 }
+
+.bily_obdelnik {
+    background-color: var(--white);
+}
+
 
 footer {
     background-color: var(--navy);
