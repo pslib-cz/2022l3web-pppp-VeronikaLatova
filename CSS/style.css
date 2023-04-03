@@ -25,18 +25,18 @@ html {
 }
 
 .header__cislo {
-    background: url(../Icons/header_telefon.svg) left center no-repeat;
+    background: url(../icons/header_telefon.svg) left center no-repeat;
     padding-left: 20px;
 }
 
 .header__email {
-    background: url(../Icons/header_obalka.svg) left center no-repeat;
+    background: url(../icons/header_obalka.svg) left center no-repeat;
     padding-left: 20px;
     margin-left: .5em;
 }
 
 .header__prihlaseni {
-    background: url(../Icons/header_prihlaseni.svg) left center no-repeat;
+    background: url(../icons/header_prihlaseni.svg) left center no-repeat;
     padding-left: 30px;
     padding-top: 1px;
 }
@@ -97,7 +97,7 @@ h2 {
 }
 
 .main_top__ul li::before {
-    content: url(../Icons/main_checkmark.svg);
+    content: url(../icons/main_checkmark.svg);
 }
 
 .button {
