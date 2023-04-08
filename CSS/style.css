@@ -111,7 +111,9 @@ h2 {
 
 .button__nav {
     order: 2;
-    margin-left: 13em;
+    margin-left: 12.5em;
+    text-align: center;
+    padding: 10px 13px;
 }
 
 .button > a {
