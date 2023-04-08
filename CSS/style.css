@@ -78,6 +78,7 @@ h2 {
     font-size: 40px;
     line-height: 52px;
     color: var(--navy);
+    text-align: center;
 }
 
 .bold {
@@ -215,6 +216,24 @@ h2 {
     text-align: center;
     margin: 0em 1em;
 }
+
+.clanek {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1em;
+}
+
+.clanek__txt {
+    margin-left: 1em;
+}
+
+.clanek__male_pismo {
+    font-style: italic;
+    font-size: smaller;
+}
+
+
 
 footer {
     background-color: var(--navy);
