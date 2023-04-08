@@ -60,11 +60,30 @@ a {
     color: var(--black);
 }
 
+h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 65px;
+    color: var(--navy);
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 22px;
+    color: var(--navy);
+}
 
 h2 {
     font-weight: 800;
     font-size: 40px;
     line-height: 52px;
+    color: var(--navy);
+}
+
+.bold {
+    font-weight: 800;
+    font-size: larger;
+    color: var(--navy)
 }
 
 .orange_text {
@@ -77,13 +96,14 @@ h2 {
     margin-top: -8em;
 }
 
-.main_top__img {
-    margin: 2em 2em;
+.img_div {
+    margin: 2em 1.5em;
 }
 
-.main_img {
+.img {
     width: 100%;
     display: block;
+    border-radius: 30px;
 }
 
 .main_top__list {
@@ -120,6 +140,10 @@ h2 {
     color: var(--white);
 }
 
+.button_center {
+    margin: 0 auto;
+}
+
 .slider {
     display: flex;
     margin: 2em;
@@ -128,20 +152,9 @@ h2 {
     gap: .5em;
 }
 
-h1 {
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 65px;
-    color: var(--navy);
-}
-
-h4 {
-    font-weight: 800;
-    font-size: 22px;
-}
-
 .vyhody {
     background-color: var(--lighterblue);
+    padding: 1em 0em;
 }
 
 .vyhody > div > h2 {
@@ -152,12 +165,14 @@ h4 {
 .vyhody_list__item > a > p {
     font-weight: 700;
     color: var(--bluetext);
+    margin: 1em;
 }
 
 .vyhody_list {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
+    margin: 0 auto;
 }
 
 .vyhody_list__circle {
@@ -187,8 +202,19 @@ h4 {
     background-color: var(--white);
     border-radius: 8px;
     filter: drop-shadow(10px 10px 4px var(--lightergray));
+    overflow: hidden;
+    padding: 0em 1em;
+    margin: 1em auto;
 }
 
+.fce {
+    margin: 2em 0;
+}
+
+.pribeh {
+    text-align: center;
+    margin: 0em 1em;
+}
 
 footer {
     background-color: var(--navy);
