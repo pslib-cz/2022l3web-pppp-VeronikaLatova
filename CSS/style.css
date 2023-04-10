@@ -233,7 +233,12 @@ h2 {
     font-size: smaller;
 }
 
-
+.aktuality__item {
+    background: url(../icons/komentar1.svg);
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    margin: 2em;
+}
 
 footer {
     background-color: var(--navy);
