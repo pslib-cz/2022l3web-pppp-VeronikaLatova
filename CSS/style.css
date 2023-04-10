@@ -24,18 +24,18 @@ html {
     font-weight: bold;
 }
 
-.ico__cislo {
+.ico_cislo {
     background: url(../icons/header_telefon.svg) left center no-repeat;
     padding-left: 20px;
 }
 
-.ico__email {
+.ico_email {
     background: url(../icons/header_obalka.svg) left center no-repeat;
     padding-left: 20px;
     margin-left: .5em;
 }
 
-.ico__prihlaseni {
+.ico_prihlaseni {
     background: url(../icons/header_prihlaseni.svg) left center no-repeat;
     padding-left: 30px;
     padding-top: 1px;
@@ -258,7 +258,19 @@ footer p {
     color: var(--lightblue);
 }
 
+.footer__box {
+
+}
+
 .line {
     border: 1px solid var(--lightblue);
     opacity: 20%;
 }
+
+/* .ico_yt {
+    background: url(../icons/footer_youtube.svg);
+}
+
+.ico_in {
+    background: url(../icons/footer_linkedin.svg);
+} */
