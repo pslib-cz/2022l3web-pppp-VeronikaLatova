@@ -240,9 +240,14 @@ h2 {
     margin: 2em;
 }
 
+.line {
+    border: 1px solid var(--lightblue);
+    opacity: 20%;
+}
+
 footer {
     background-color: var(--navy);
-    padding: 2em;
+    padding: 1.5em;
     color: var(--white);
 }
 
@@ -258,19 +263,18 @@ footer p {
     color: var(--lightblue);
 }
 
+.footer__top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .footer__box {
-
+    flex-grow: 1;
+    margin: 1em;
 }
 
-.line {
-    border: 1px solid var(--lightblue);
-    opacity: 20%;
+.footer__ul {
+    list-style-type: none;
+    padding: 0;
 }
-
-/* .ico_yt {
-    background: url(../icons/footer_youtube.svg);
-}
-
-.ico_in {
-    background: url(../icons/footer_linkedin.svg);
-} */
