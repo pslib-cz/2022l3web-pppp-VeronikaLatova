@@ -177,6 +177,10 @@ h2 {
     gap: .5em;
 }
 
+.Logoipsum {
+    margin: -.5em;
+}
+
 .vyhody {
     background-color: var(--lighterblue);
     padding: 1em 0em;
@@ -339,6 +343,20 @@ footer p {
     padding: .5em;
 }
 
+.kontakt__nav {
+    margin-left: 1em;
+    margin-top: -11em;
+}
+
+.kontakt_top {
+    margin: 3em 1em;
+}
+
+.kontakt__h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
 .mapa__img {
     width: 100%;
     display: block;
@@ -346,4 +364,20 @@ footer p {
 
 .mapa {
     margin: 2em;
+}
+
+.mini_nav__uvod {
+    background: url(../icons/funkce_domu.svg) left center no-repeat;
+    padding-left: 30px;
+    margin-right: 1em;
+}
+
+.tecka {
+    width: 4px;
+    height: 4px;
+    background-color: var(--orange);
+    border-radius: 50%;
+    display: inline-block;
+    margin: .25em;
+    margin-right: 1em;
 }
