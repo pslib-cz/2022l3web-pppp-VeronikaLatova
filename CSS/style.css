@@ -314,16 +314,36 @@ footer p {
 
 
 .kontakt_top__mail {
-    background: url(../icons/email.svg) left center no-repeat;
-    padding-left: 20px;
+    background: url(../icons/envelop.svg) left center no-repeat;
+    padding-left: 60px;
+    font-size: 1.5em;
 }
 
 .kontakt_top__cislo {
-    background: url(../icons/telephone.svg) left center no-repeat;
-    padding-left: 20px;
+    background: url(../icons/phone-hang-up.svg) left center no-repeat;
+    padding-left: 60px;
+    font-size: 1.5em;
 }
 
 .kontakt_top__adresa {
-    background: url(../icons/People\ in\ circle.svg) left center no-repeat;
-    padding-left: 20px;
+    background: url(../icons/location2.svg) left center no-repeat;
+    padding-left: 60px;
+    font-size: 1.5em;
+}
+
+.kontakt__hodiny {
+    background-color: var(--orange);
+    color: var(--white);
+    text-align: center;
+    font-weight: 600;
+    padding: .5em;
+}
+
+.mapa__img {
+    width: 100%;
+    display: block;
+}
+
+.mapa {
+    margin: 2em;
 }
