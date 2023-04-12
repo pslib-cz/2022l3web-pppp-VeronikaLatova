@@ -75,7 +75,7 @@ html {
 .navigace__logoipsum {
     position: absolute;
     margin-top: 1em;
-    margin-left: 1em;
+    margin-left: .5em;
     order: 1;
 }
 
@@ -150,15 +150,26 @@ h2 {
     width: fit-content;
     height: fit-content;
     border-radius: 30px;
-    padding: 12px 24px;
+    padding: 12px 20px;
     font-weight: 700;
+    border: 3px solid var(--orange)
+}
+
+.button:hover {
+    background-color: var(--white);
+    border: 3px solid var(--orange);
+    cursor: pointer;
+}
+
+.button:hover > a {
+    color: var(--orange);
 }
 
 .button__nav {
     order: 2;
-    margin-left: 12.5em;
+    margin-left: 12em;
     text-align: center;
-    padding: 10px 13px;
+    padding: 10px 10px;
 }
 
 .button > a {
@@ -170,8 +181,8 @@ h2 {
 }
 
 .slider {
+    overflow-x: scroll;
     display: flex;
-    margin: 2em;
     flex-direction: row;
     margin: 2em;
     gap: .5em;
