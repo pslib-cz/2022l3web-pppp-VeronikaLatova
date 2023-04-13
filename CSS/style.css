@@ -231,17 +231,6 @@ h2 {
     margin: 0 auto;
 }
 
-.bily_obdelnik {
-    width: 304px;
-    height: 200px;
-    background-color: var(--white);
-    border-radius: 8px;
-    filter: drop-shadow(10px 10px 4px var(--lightergray));
-    overflow: hidden;
-    padding: 0em 1em;
-    margin: 1em auto;
-}
-
 .fce {
     margin: 2em 0;
 }
@@ -421,4 +410,20 @@ footer p {
 
 .funkce__txt {
     margin-right: 3em;
+}
+
+.seznam_funkci {
+    background-color: var(--evenlightergray);
+    padding: 1em;
+    margin: 1em;
+}
+
+.funkce__karta {
+    width: 304px;
+    height: 200px;
+    background-color: var(--white);
+    border-radius: 8px;
+    filter: drop-shadow(0px 0px 25px var(--lightergray));
+    padding: 0em 1em;
+    margin: 1em auto;
 }
