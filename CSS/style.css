@@ -468,5 +468,41 @@ footer p {
 }
 
 @media only screen and (min-width: 1281px) {
-    
+
+}
+
+
+@media screen and (min-width: 640px) {
+    .navigace__visible {
+        display: flex;
+        padding: 0;
+        
+    }
+
+    .navigace__visible_nav {
+        order: 2;
+    }
+
+    .navigace__visible > li {
+        list-style-type: none;
+        margin: 0 .5em;
+        font-weight: 600;
+    }
+
+    .navigace__logoipsum {
+        order: 1;
+        position: static;
+        margin-top: 0;
+    }
+
+    .button__nav {
+        order: 3;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .navigace__visible {
+        display: none;
+    }
 }
