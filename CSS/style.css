@@ -356,6 +356,13 @@ footer p {
     margin: 0;
 }
 
+.kontakt__h3 {
+    font-size: 30px;
+    text-align: center;
+    color: var(--navy);
+    font-weight: 800;
+}
+
 .mapa__img {
     width: 100%;
     display: block;
