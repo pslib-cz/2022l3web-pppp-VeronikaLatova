@@ -366,6 +366,7 @@ footer p {
 .mapa__img {
     width: 100%;
     display: block;
+    border-radius: 30px;
 }
 
 .mapa {
@@ -425,9 +426,11 @@ footer p {
 }
 
 .seznam_funkci {
+    display: flex;
+    flex-wrap: wrap;
     background-color: var(--evenlightergray);
     padding: 1em;
-    /* margin: 1em; */
+    gap: .5em;
 }
 
 .funkce__karta {
@@ -458,25 +461,17 @@ footer p {
     color: var(--white);
 }
 
-
-@media only screen and (min-width: 768px) {
-
+.aktuality {
+    background-color: var(--evenlightergray);
+    padding-bottom: 2em;
 }
 
-@media only screen and (min-width: 961px) {
-
-}
-
-@media only screen and (min-width: 1281px) {
-
-}
-
+/*viditelná navigace*/
 
 @media screen and (min-width: 640px) {
     .navigace__visible {
         display: flex;
         padding: 0;
-        
     }
 
     .navigace__visible_nav {
@@ -499,6 +494,12 @@ footer p {
         order: 3;
         margin-left: 0;
     }
+
+    .footer__box {
+        margin: 2em;
+    }
+
+
 }
 
 @media screen and (max-width: 640px) {
@@ -506,3 +507,68 @@ footer p {
         display: none;
     }
 }
+
+
+@media only screen and (min-width: 768px) {
+    .slider {
+        gap: 3em;
+    }
+
+    .vyhody_list {
+        display: flex;
+        margin: 2em 0;
+    }
+
+    /* .fce {
+        display: grid;
+        grid-template-areas: "ka";
+    }
+
+    .funkce__karta {
+        grid-area: karta;
+    } */
+
+    .fce {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .funkce__karta {
+        margin: 1em;
+    }
+
+        /*funkce */
+
+    .page__nav {
+            margin-left: 2em;
+        }
+    
+    .funkce__h2 {
+            margin: 1em;
+        }
+    
+    .funkce__top {
+            margin: 2em;
+            align-items: center;
+        }
+    
+    .funkce__txt {
+            margin-right: 5em;
+        }
+
+    .seznam_funkci {
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (min-width: 961px) {
+
+}
+
+@media only screen and (min-width: 1281px) {
+
+}
+
+
