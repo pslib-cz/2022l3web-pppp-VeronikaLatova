@@ -519,15 +519,6 @@ footer p {
         margin: 2em 0;
     }
 
-    /* .fce {
-        display: grid;
-        grid-template-areas: "ka";
-    }
-
-    .funkce__karta {
-        grid-area: karta;
-    } */
-
     .fce {
         display: flex;
         flex-wrap: wrap;
@@ -561,10 +552,59 @@ footer p {
         justify-content: center;
     }
 
+    .clanky {
+        margin: 4em;
+    }
+
 }
 
 @media only screen and (min-width: 961px) {
+    .main_top__obal {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
+    .img_div {
+        order: 2;
+    }
+
+    .pribeh__obal {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .pribeh__txt {
+        text-align: left;
+        margin: 1em;
+    }
+
+    .clanky {
+        display: flex;
+        margin: 2em;
+    }
+
+    .clanek__txt {
+        margin: .5em;
+    }
+
+    .aktuality__obal {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .aktuality__item {
+        margin: 1em 3em;
+    }
+
+    .seznam_funkci {
+        justify-content: flex-start;
+    }
+
+    .funkce__karta {
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 1281px) {
