@@ -598,17 +598,19 @@ footer p {
         margin: 1em 3em;
     }
 
-    .seznam_funkci {
-        justify-content: flex-start;
+    .funkce__karta {
+        margin: .5em;
     }
 
-    .funkce__karta {
-        margin: 0;
+    .slider {
+        justify-content: center;
+    }
+
+    .footer__top {
+        justify-content: space-evenly;
     }
 }
 
 @media only screen and (min-width: 1281px) {
-
+        
 }
-
-
