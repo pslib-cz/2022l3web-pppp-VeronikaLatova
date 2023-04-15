@@ -70,6 +70,7 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: .5em;
 }
 
 .navigace__logoipsum {
@@ -482,6 +483,10 @@ footer p {
         padding: 0;
     }
 
+    .navigace__visible > li:hover {
+        border-bottom: 3px solid var(--orange);
+    }
+
     .navigace__visible_nav {
         order: 2;
     }
@@ -525,6 +530,7 @@ footer p {
     .vyhody_list {
         display: flex;
         margin: 2em 0;
+        justify-content: center;
     }
 
     .fce {
@@ -579,7 +585,7 @@ footer p {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-top: -4em;
+        margin: 0 8em
     }
 
     .pribeh__txt {
@@ -622,7 +628,8 @@ footer p {
     .main__upper {
         display: flex;
         align-items: center;
-        margin-top: -5em;
+        margin-top: -13em;
+        justify-content: center;
     }
 
     .main_top {
@@ -653,9 +660,16 @@ footer p {
         display: flex;
         flex-direction: column;
         align-items: start;
+        margin: 4em;
     }
 }
 
 @media only screen and (min-width: 1281px) {
-        
+    .main__img {
+        max-width: 500px;
+    }
+
+    .mapa {
+        margin: 8em;
+    }
 }
