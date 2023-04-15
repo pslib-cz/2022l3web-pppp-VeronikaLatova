@@ -470,6 +470,10 @@ footer p {
     margin: 2em 1.5em;
 }
 
+.button_pribeh {
+    margin: 0 auto;
+}
+
 /*viditelná navigace*/
 
 @media screen and (min-width: 640px) {
@@ -575,6 +579,7 @@ footer p {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-top: -4em;
     }
 
     .pribeh__txt {
@@ -622,12 +627,7 @@ footer p {
 
     .main_top {
         text-align: left;
-        margin: 0;
-        margin-left: 3em;
-    }
-
-    .main_top__list {
-        margin-left: -23em;
+        margin: 0 2em;
     }
 
     .main__img {
@@ -643,6 +643,16 @@ footer p {
 
     .mapa {
         margin: 4em;
+    }
+
+    .button_pribeh {
+        margin: 0;
+    }
+
+    .main__txt {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
     }
 }
 
