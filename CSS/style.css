@@ -209,9 +209,6 @@ h2 {
 }
 
 .vyhody_list {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
     margin: 0 auto;
 }
 
@@ -446,6 +443,7 @@ footer p {
     background-color: var(--evenlightergray);
     padding: 1em;
     gap: .5em;
+    border-radius: 20px;
 }
 
 .funkce__karta {
@@ -455,7 +453,7 @@ footer p {
     border-radius: 8px;
     filter: drop-shadow(0px 0px 25px var(--lightergray));
     padding: .5em .5em;
-    margin: 1em auto;
+    margin: .5em auto;
 }
 
 .funkce__karta:hover > a > h3 {
@@ -595,6 +593,10 @@ footer p {
         margin: 4em;
     }
 
+    .clanky--kontakt {
+        margin: 4em;
+    }
+
     .img_div {
         margin: 4em 3em;
     }
@@ -625,6 +627,11 @@ footer p {
 
     .clanek__txt {
         margin: .5em;
+    }
+
+    .clanky--kontakt {
+        display: flex;
+        margin: 2em;
     }
 
     .aktuality__obal {
@@ -696,5 +703,46 @@ footer p {
 
     .mapa {
         margin: 8em;
+    }
+
+    .header__top {
+        padding: .5em 10em;
+    }
+
+    .navigace {
+        padding: 0 10em;
+    }
+
+    .vyhody {
+        padding: 1em 10em;
+    }
+
+    .pribeh {
+        padding: 0 10em;
+    }
+
+    .clanky {
+        padding: 0 10em;
+    }
+
+    .aktuality {
+        padding: 0 10em;
+        padding-bottom: 2em;
+    }
+
+    .funkce__main {
+        padding: 0 10em;
+    }
+
+    .kontakt__main {
+        padding: 0 10em;
+    }
+
+    footer {
+        padding: 0 10em;
+    }
+
+    .clanky--kontakt {
+        padding: 0;
     }
 }

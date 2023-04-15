@@ -1,5 +1,5 @@
 .hamburger-row {
-    padding: 1em;
+    padding: .5em;
     background-color: var(--white);
     display: flex;
     justify-content: flex-end;
