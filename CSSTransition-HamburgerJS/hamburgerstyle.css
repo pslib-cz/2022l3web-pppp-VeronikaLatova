@@ -39,12 +39,7 @@
     .hamburger-row {
         display: none;
     }
-
-    .hamburger-nav {
-        /* transform: none;
-        height: calc(100vh - 4px); */
-    }
-
+    
     .hamburger-nav ul {
         height: 100%;
         width: 33vw;
